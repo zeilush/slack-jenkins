@@ -1,0 +1,8 @@
+# Intellij project files
+.idea/
+workspace.xml
+*.iml
+
+*.retry
+*.log
+.vagrant/
