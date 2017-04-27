@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <user>
-  <fullName>Jenkins Bot</fullName>
+  <fullName>Jan Plitschka</fullName>
   <description></description>
   <properties>
     <jenkins.security.ApiTokenProperty>
       <apiToken>{AQAAABAAAAAw2drenFpeJaypNMLgX7hY3UpZipbc3WKJ1YHpsO7twINaXJs2f+93fNhOY5xqBBo5oV8oo+0C6/jfmCkgKpmFDg==}</apiToken>
     </jenkins.security.ApiTokenProperty>
-    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.11">
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.20">
       <emailAddress>admin@test.de</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
     <jenkins.security.LastGrantedAuthoritiesProperty>
@@ -34,7 +34,7 @@
       <collapsed/>
     </hudson.model.PaneStatusProperties>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$qm6nA5RElPgBoPgwmyvyIeBgsDOX.a7LxTFzJRKueojxEQ5EEG7h2</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$avryJnMkJ91V4IZF1SLVJ.MjD.30A9/cxI4vhQ08Pflv0bmcn5wt.</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
       <authorizedKeys></authorizedKeys>
