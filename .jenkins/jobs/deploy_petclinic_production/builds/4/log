@@ -1,15 +1,0 @@
-Gestartet durch Benutzer [8mha:////4B8uPUmxX7u+a8cpP5lueCbnBr3dt7NSYWW8jWC11M6sAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mJenkins Bot
-Baue in Arbeitsbereich C:\Users\Artur.Zeiler\.jenkins\jobs\deploy_petclinic_production\workspace
-[workspace] $ sh -xe C:\Users\ARTUR~1.ZEI\AppData\Local\Temp\hudson5144541821932192889.sh
-+ curl -n -X POST https://api.heroku.com/apps/slack-it-petclinic/builds -d '{"source_blob":{"url":"https://github.com/zeilush/slack-app/archive/master.tar.gz", "version": "cb6999d361a0244753cf89813207ad53ad906a14"}}' -H 'Authorization: Bearer a8977a11-2d06-48a4-a525-effcb1121a3d' -H 'Accept: application/vnd.heroku+json; version=3' -H 'Content-Type: application/json'
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   139    0     0  100   139      0     88  0:00:01  0:00:01 --:--:--    88100  1163  100  1024  100   139    636     86  0:00:01  0:00:01 --:--:--   636
-++ cat output.json
-++ python -c 'import json,sys;obj=json.load(sys.stdin);print obj['\''output_stream_url'\''];'
-C:\Users\ARTUR~1.ZEI\AppData\Local\Temp\hudson5144541821932192889.sh: line 4: python: command not found
-+ curl -i -X GET
-curl: no URL specified!
-curl: try 'curl --help' or 'curl --manual' for more information
-Build step 'Shell ausführen' marked build as failure
-Finished: FAILURE

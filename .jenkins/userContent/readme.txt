@@ -1,1 +1,0 @@
-Dateien in diesem Verzeichnis sind erreichbar �ber http://server/hudson/userContent/
